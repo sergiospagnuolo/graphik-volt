@@ -1,10 +1,7 @@
-
-/* Properties used here should be taken from this list: http://www.w3.org/TR/SVG/propidx.html */
-
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
 
 svg {
-    font-family: 'Crimson Text', Times, serif;
+    font-family: 'Inconsolata', Times, serif;
 }
 
 svg #title {
@@ -60,7 +57,7 @@ svg .line-chart #plot path {
 
 svg .bar-chart #plot .bar0 rect,
 svg #legend .group0 circle {
-    fill: #05a6ff;
+    fill: #faa61a;
 }
 
 svg .line-chart #plot path.line0 {
