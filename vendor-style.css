@@ -1,0 +1,124 @@
+
+/* Properties used here should be taken from this list: http://www.w3.org/TR/SVG/propidx.html */
+
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700);
+
+svg {
+    font-family: 'Crimson Text', Times, serif;
+}
+
+svg #title {
+    fill: #222;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+svg #subtitle {
+    fill: #666;
+    font-size: 15px;
+}
+
+svg #footline {
+    stroke: #222;
+}
+
+svg #notes {
+    fill: #222;
+    font-size: 14px;
+    font-style: italic;
+}
+
+svg #credit,
+svg #source {
+    fill: #222;
+    font-size: 11px;
+}
+
+svg #legend {
+    font-size: 13px;
+}
+
+svg #x-axis text,
+svg #y-axis text {
+    fill: #222;
+    font-size: 14px;
+}
+
+svg .line-chart #x-axis .tick line {
+    stroke: #222;
+    stroke-width: 2px;
+}
+
+svg #grid line {
+    stroke: #ddd;
+}
+
+svg .line-chart #plot path {
+    fill: none;
+    stroke-width: 2px;
+}
+
+svg .bar-chart #plot .bar0 rect,
+svg #legend .group0 circle {
+    fill: #05a6ff;
+}
+
+svg .line-chart #plot path.line0 {
+    stroke: #05a6ff;
+}
+
+svg .bar-chart #plot .bar1 rect,
+svg #legend .group1 circle  {
+    fill: #fff200;
+}
+
+svg .line-chart #plot path.line1 {
+    stroke: #fff200;
+}
+
+svg .bar-chart #plot .bar2 rect,
+svg #legend .group2 circle {
+    fill: #ff4f05;
+}
+
+svg .line-chart #plot path.line2 {
+    stroke: #ff4f05;
+}
+
+svg .bar-chart #plot .bar3 rect,
+svg #legend .group3 circle {
+    fill: #8fff29;
+}
+
+svg .line-chart #plot path.line3 {
+    stroke: #8fff29;
+}
+
+svg .bar-chart #plot .bar4 rect,
+svg #legend .group4 circle {
+    fill: #bb0bff;
+}
+
+svg .line-chart #plot path.line4 {
+    stroke: #bb0bff;
+}
+
+svg .bar-chart #plot .bar5 rect,
+svg #legend .group5 circle {
+    fill: #05ffb4;
+}
+
+svg .line-chart #plot path.line5 {
+    stroke: #05ffb4;
+}
+
+svg .bar-chart #plot text {
+    fill: #222;
+    font-size: 14px;
+}
+
+svg #zeroline {
+    stroke: #222;
+    stroke-width: 2px;
+    stroke-linecap: square;
+}
