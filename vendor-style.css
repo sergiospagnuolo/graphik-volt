@@ -52,7 +52,7 @@ svg #grid line {
 
 svg .line-chart #plot path {
     fill: none;
-    stroke-width: 2px;
+    stroke-width: 3px;
 }
 
 svg .bar-chart #plot .bar0 rect,
