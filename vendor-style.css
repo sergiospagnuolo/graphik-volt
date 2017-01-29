@@ -13,6 +13,7 @@ svg #title {
 svg #subtitle {
     fill: #666;
     font-size: 15px;
+    padding-top: 20px;
 }
 
 svg #footline {

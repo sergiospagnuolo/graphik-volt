@@ -109,7 +109,7 @@ function Graphik() {
     function getConfig() {
         return {
             type: document.querySelector('input[name=type]:checked').value,
-            title: document.querySelector('input[name=title]' + '<br />').value,
+            title: document.querySelector('input[name=title]').value,
             subtitle: document.querySelector('input[name=subtitle]').value,
             tickInterval: document.querySelector('input[name=tickInterval]').value,
             dataPrefix: document.querySelector('input[name=dataPrefix]').value,
@@ -124,7 +124,7 @@ function Graphik() {
     function setConfig(config) {
         document.querySelector('input[name=type][value=' + config.type + ']').checked = true
         document.querySelector('input[name=title]').value = config.title
-        document.querySelector('input[name=subtitle]' + '<br />').value = config.subtitle
+        document.querySelector('input[name=subtitle]').value = config.subtitle
         document.querySelector('input[name=tickInterval]').value = config.tickInterval
         document.querySelector('input[name=dataPrefix]').value = config.dataPrefix
         document.querySelector('input[name=dataSuffix]').value = config.dataSuffix
